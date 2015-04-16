@@ -7,4 +7,5 @@ class Listing < ActiveRecord::Base
   validates_presence_of :image
   
   belongs_to :user
+  has_many :orders
 end
